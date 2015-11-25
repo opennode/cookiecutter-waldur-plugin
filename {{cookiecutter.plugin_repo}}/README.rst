@@ -1,5 +1,4 @@
-
-{{ cookiecutter.plugin_name  }}
+NodeConductor {{ cookiecutter.plugin_name  }}
 ===============================
 
 {{ cookiecutter.plugin_short_description }}

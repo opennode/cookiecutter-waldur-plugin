@@ -15,8 +15,8 @@ install_requires = [
 setup(
     name='{{ cookiecutter.plugin_repo }}',
     version='0.1.0',
-    author='OpenNode Team',
-    author_email='info@opennodecloud.com',
+    author='{{ cookiecutter.organization_name }} Team',
+    author_email='{{ cookiecutter.organization_email }}',
     url='http://nodeconductor.com',
     description='{{ cookiecutter.plugin_short_description }}',
     long_description=open('README.rst').read(),
@@ -38,7 +38,7 @@ setup(
         'Intended Audience :: Developers',
         'Intended Audience :: System Administrators',
         'Operating System :: OS Independent',
-        'License :: Other/Proprietary License',
+        'License :: Apache v2',
     ],
 )
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-# {{ cookiecutter.plugin_name }} documentation build configuration file.
+# NodeConductor {{ cookiecutter.plugin_name }} documentation build configuration file.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -43,8 +43,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'{{ cookiecutter.plugin_name }}'
-copyright = u'{{ cookiecutter.year  }}, OpenNode'
+project = u'NodeConductor {{ cookiecutter.plugin_name }}'
+copyright = u'{{ cookiecutter.year  }}, {{ cookiecutter.organization_name }}'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -199,8 +199,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', '{{ cookiecutter.plugin_repo }}.tex', u'{{ cookiecutter.plugin_name }} Documentation',
-   u'OpenNode', 'manual'),
+  ('index', '{{ cookiecutter.plugin_repo }}.tex', u'NodeConductor {{ cookiecutter.plugin_name }} Documentation',
+   u'{{ cookiecutter.organization_name }}', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -229,8 +229,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', '{{ cookiecutter.plugin_repo }}', u'{{ cookiecutter.plugin_name }} Documentation',
-     [u'OpenNode'], 1)
+    ('index', '{{ cookiecutter.plugin_repo }}', u'NodeConductor {{ cookiecutter.plugin_name }} Documentation',
+     [u'{{ cookiecutter.organization_name }}'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -243,8 +243,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', '{{ cookiecutter.plugin_name }}', u'{{ cookiecutter.plugin_name }} Documentation',
-   u'OpenNode', '{{ cookiecutter.plugin_repo }}', 'One line description of project.',
+  ('index', 'NodeConductor {{ cookiecutter.plugin_name }}', u'NodeConductor {{ cookiecutter.plugin_name }} Documentation',
+   u'{{ cookiecutter.organization_name }}', '{{ cookiecutter.plugin_repo }}', 'One line description of project.',
    'Miscellaneous'),
 ]
 

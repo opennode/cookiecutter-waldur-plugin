@@ -1,4 +1,4 @@
-Welcome to {{ cookiecutter.plugin_name}} plugin's documentation!
+Welcome to NodeConductor {{ cookiecutter.plugin_name}} plugin's documentation!
 ================================================================
 
 {{ cookiecutter.plugin_short_description }}
@@ -22,7 +22,7 @@ API
 License
 -------
 
-{{ cookiecutter.plugin_name }} plugin is open-source under Apache v2 license.
+NodeConductor {{ cookiecutter.plugin_name }} plugin is open-source under Apache v2 license.
 
 
 Indices and tables
