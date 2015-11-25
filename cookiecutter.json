@@ -1,0 +1,13 @@
+{
+        "plugin_name": "<plugin_name>",
+        "plugin_repo": "nodeconductor-{{ cookiecutter.plugin_name.lower().replace(' ', '-') }}",
+        "plugin_source": "nodeconductor_{{ cookiecutter.plugin_name.lower().replace(' ', '_') }}",
+        "plugin_extension_class": "{{ cookiecutter.plugin_name.replace(' ', '') }}Extension",
+        "plugin_short_description": "Here should go the short description of the plugin",
+        "nodeconductor_version": "0.81.0",
+        "year": "2015",
+        "organization_name": "OpenNode",
+        "organization_email": "info@opennodecloud.com",
+        "github_username": "{{ cookiecutter.organization_name.lower().replace(' ', '') }}"
+}
+
