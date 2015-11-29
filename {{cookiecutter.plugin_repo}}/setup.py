@@ -21,7 +21,7 @@ setup(
     description='{{ cookiecutter.plugin_short_description }}',
     long_description=open('README.rst').read(),
     package_dir={'': 'src'},
-    packages=find_packages('src', exclude=["*.tests", "*.tests.*", "tests.*", "tests"]),
+    packages=find_packages('src', exclude=['*.tests', '*.tests.*', 'tests.*', 'tests']),
     install_requires=install_requires,
     zip_safe=False,
     extras_require={
@@ -41,4 +41,3 @@ setup(
         'License :: Apache v2',
     ],
 )
-
