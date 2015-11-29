@@ -14,7 +14,7 @@ install_requires = [
 
 setup(
     name='{{ cookiecutter.plugin_repo }}',
-    version='0.1.0',
+    version='0.1.0.dev0',
     author='{{ cookiecutter.organization_name }} Team',
     author_email='{{ cookiecutter.organization_email }}',
     url='http://nodeconductor.com',
