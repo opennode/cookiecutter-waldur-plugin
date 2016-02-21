@@ -6,7 +6,7 @@ Installation
 
   .. code-block:: bash
 
-    git clone https://github.com/{{ cookiecutter.organization_name }}./{{ cookiecutter.plugin_repo }}.git
+    git clone https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.plugin_repo }}.git
 
  * Install NodeConductor {{ cookiecutter.plugin_name }} into NodeConductor virtual environment
 
