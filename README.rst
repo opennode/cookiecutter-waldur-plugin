@@ -22,8 +22,8 @@ Note, that in brackets will be suggested default values.
 - plugin_app_config_class - name of the class inside **apps.py** file i.e. `SugarCRMConfig`
 - plugin_short_description - short description of the plugin
 - nodeconductor_version - version of the `NodeConductor <http://nodeconductor.readthedocs.org/en/stable/index.html>`_
-  application this plugin depends on. i.e. `0.81.0`
-- year - current year i.e. `2015`
+  application this plugin depends on. i.e. `0.95.0`
+- year - current year i.e. `2016`
 - organization - name of the organization i.e. `OpenNode`
 - github_username - GitHub username i.e. `opennode`
 
