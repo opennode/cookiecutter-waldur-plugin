@@ -34,17 +34,42 @@ Implementing services
 Usually NodeConductor plugin implements service, for example for OpenStack or Zabbix.
 Service consists of backend class, database models and API views. Service catalog maintains metadata about all connected services.
 
-In order to specify ID of service settings in the database, add the following property to the application configuration class in **apps.py** file. Note that once `service_name` is set up, it should not be modified without migration.
+In order to specify ID of service settings in the database, add the following property to the application configuration class in `apps.py` file.
+Note that once `service_name` is set up, it should not be modified without migration.
 
 .. code-block:: python
 
     service_name = '{{ cookiecutter.plugin_name }}'
 
 
-It is assumed that service backend is implemented in **backend.py** file. In order to connect backend class to the service catalog, add the following code to `ready` method of the application configuration class. When service backend is connected, related database models are connected as well.
+It is assumed that service backend is implemented in **backend.py** file.
+In order to connect backend class to the service catalog, add the following code to `ready` method of the application configuration class.
+When service backend is connected, related database models are connected as well.
 
 .. code-block:: python
 
     from nodeconductor.structure import SupportedServices
     from .backend import Backend
     SupportedServices.register_backend(Backend)
+
+Adding new URLs
+===============
+
+If NodeConductor plugin adds a new Django URL, it should be registered in `urls.py` file:
+
+.. code-block:: python
+
+    urlpatterns = patterns('',
+        url(r'^my/new/url/', views.page),
+    )
+
+See also: https://docs.djangoproject.com/en/1.8/topics/http/urls/#url-dispatcher
+
+For Django to be able to use these URL configurations make sure this method exists in `extension.py` or add it:
+
+.. code-block:: python
+
+    @staticmethod
+    def django_urls():
+        from .urls import urlpatterns
+        return urlpatterns
