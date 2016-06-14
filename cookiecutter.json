@@ -5,7 +5,7 @@
         "plugin_extension_class": "{{ cookiecutter.plugin_name.replace(' ', '') }}Extension",
         "plugin_app_config_class": "{{ cookiecutter.plugin_name.replace(' ', '') }}Config",
         "plugin_short_description": "Here should go the short description of the plugin",
-        "nodeconductor_version": "0.95.0",
+        "nodeconductor_version": "0.101.2",
         "year": "2016",
         "organization_name": "OpenNode",
         "organization_email": "info@opennodecloud.com",
