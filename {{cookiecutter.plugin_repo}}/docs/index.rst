@@ -30,7 +30,7 @@ Endpoints
 License
 -------
 
-NodeConductor {{ cookiecutter.plugin_name }} plugin is open-source under Apache v2 license.
+NodeConductor {{ cookiecutter.plugin_name }} plugin is open-source under MIT license.
 
 
 Indices and tables
