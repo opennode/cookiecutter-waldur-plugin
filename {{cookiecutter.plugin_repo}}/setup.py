@@ -16,7 +16,7 @@ setup(
     version='0.1.0.dev0',
     author='{{ cookiecutter.organization_name }} Team',
     author_email='{{ cookiecutter.organization_email }}',
-    url='http://nodeconductor.com',
+    url='https://waldur.com',
     description='{{ cookiecutter.plugin_short_description }}',
     long_description=open('README.rst').read(),
     package_dir={'': 'src'},
