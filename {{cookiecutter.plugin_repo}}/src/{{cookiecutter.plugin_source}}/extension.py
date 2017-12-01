@@ -1,9 +1,9 @@
 from __future__ import unicode_literals
 
-from nodeconductor.core import NodeConductorExtension
+from waldur_core.core import WaldurExtension
 
 
-class {{ cookiecutter.plugin_extension_class }}(NodeConductorExtension):
+class {{ cookiecutter.plugin_extension_class }}(WaldurExtension):
 
     @staticmethod
     def django_app():
@@ -13,4 +13,3 @@ class {{ cookiecutter.plugin_extension_class }}(NodeConductorExtension):
     def rest_urls():
         from .urls import register_in
         return register_in
-
