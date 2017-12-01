@@ -17,8 +17,6 @@
     python setup.py install
 ```
 
-## API documentation
-
 ## License
 
 Waldur {{ cookiecutter.plugin_name }} plugin is open-source under MIT license.
