@@ -1,2 +1,2 @@
-NodeConductor {{ cookiecutter.plugin_name }} plugin is open-source under Apache v2 license.
+Waldur {{ cookiecutter.plugin_name }} plugin is open-source under Apache v2 license.
 

@@ -1,5 +1,5 @@
-Welcome to NodeConductor {{ cookiecutter.plugin_name}} plugin's documentation!
-================================================================
+Welcome to Waldur {{ cookiecutter.plugin_name}} plugin's documentation!
+=======================================================================
 
 {{ cookiecutter.plugin_short_description }}
 
@@ -30,7 +30,7 @@ Endpoints
 License
 -------
 
-NodeConductor {{ cookiecutter.plugin_name }} plugin is open-source under Apache v2 license.
+Waldur {{ cookiecutter.plugin_name }} plugin is open-source under Apache v2 license.
 
 
 Indices and tables

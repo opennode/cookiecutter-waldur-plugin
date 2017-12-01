@@ -1,5 +1,4 @@
-NodeConductor {{ cookiecutter.plugin_name  }}
-===============================
+Waldur {{ cookiecutter.plugin_name  }}
+======================================
 
 {{ cookiecutter.plugin_short_description }}
-

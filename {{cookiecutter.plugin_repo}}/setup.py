@@ -7,7 +7,7 @@ dev_requires = [
 ]
 
 install_requires = [
-    'nodeconductor>={{ cookiecutter.nodeconductor_version }}',
+    'waldur-core>={{ cookiecutter.waldur_version }}',
 ]
 
 
@@ -19,6 +19,7 @@ setup(
     url='https://waldur.com',
     description='{{ cookiecutter.plugin_short_description }}',
     long_description=open('README.rst').read(),
+    license='MIT',
     package_dir={'': 'src'},
     packages=find_packages('src', exclude=['*.tests', '*.tests.*', 'tests.*', 'tests']),
     install_requires=install_requires,
@@ -27,7 +28,7 @@ setup(
         'dev': dev_requires,
     },
     entry_points={
-        'nodeconductor_extensions': (
+        'waldur_extensions': (
             '{{ cookiecutter.plugin_source }} = {{ cookiecutter.plugin_source }}.extension:{{ cookiecutter.plugin_extension_class }}',
         ),
     },

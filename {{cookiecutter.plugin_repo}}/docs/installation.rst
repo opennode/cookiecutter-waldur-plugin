@@ -1,18 +1,17 @@
 Installation
 ------------
 
-* `Install NodeConductor <http://nodeconductor.readthedocs.org/en/latest/guide/intro.html#installation-from-source>`_
+* `Install Waldur Core <https://github.com/opennode/waldur-core/blob/develop/docs/guide/install-from-src.rst>`_
 
-* Clone NodeConductor {{ cookiecutter.plugin_name }} repository
+* Clone Waldur {{ cookiecutter.plugin_name }} repository
 
   .. code-block:: bash
 
     git clone https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.plugin_repo }}.git
 
-* Install NodeConductor {{ cookiecutter.plugin_name }} into NodeConductor virtual environment
+* Install Waldur {{ cookiecutter.plugin_name }} into Waldur virtual environment
 
   .. code-block:: bash
 
     cd /path/to/{{ cookiecutter.plugin_repo }}/
     python setup.py install
-
